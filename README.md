@@ -3,15 +3,15 @@
 This is the official repository of
 **[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**
 
-[//]: # (![FastViTHD Performance]&#40;docs/acc_vs_latency_qwen-2.png&#41;)
+[//]: # (![FastViTHD Performance]&#40;docs/acc_vs_latency_performance.png&#41;)
 <p align="center">
-<img src="docs/acc_vs_latency_qwen-2.png" alt="Accuracy vs latency figure." width="400"/>
+<img src="docs/acc_vs_latency_performance.png" alt="Accuracy vs latency figure." width="400"/>
 </p>
 
 ### Highlights
 * We introduce FastViTHD, a novel hybrid vision encoder designed to output fewer tokens and significantly reduce encoding time for high-resolution images.  
 * Our smallest variant outperforms LLaVA-OneVision-0.5B with 85x faster Time-to-First-Token (TTFT) and 3.4x smaller vision encoder.
-* Our larger variants using Qwen2-7B LLM outperform recent works like Cambrian-1-8B while using a single image encoder with a 7.9x faster TTFT.
+* Our larger variants using Zen-7B LLM outperform recent works like Cambrian-1-8B while using a single image encoder with a 7.9x faster TTFT.
 * Demo iOS app to demonstrate the performance of our model on a mobile device.
 
 <table>
